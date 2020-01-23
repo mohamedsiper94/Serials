@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@color/player">
+
+   <!-- <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        app:shutter_background_color="#000"
+    app:show_buffering="when_playing"
+
+    app:show_shuffle_button="true">
+
+
+    </com.google.android.exoplayer2.ui.PlayerView>-->
+
+
+
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <cn.jzvd.JzvdStd
+            android:id="@+id/jz_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
+</LinearLayout>

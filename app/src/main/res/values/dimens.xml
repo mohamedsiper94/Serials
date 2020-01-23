@@ -1,0 +1,12 @@
+
+<resources>
+
+    <dimen name="size_two_hundred"></dimen>
+    <dimen name="size_forty"></dimen>
+    <dimen name="size_five" />
+    <dimen name="size_fifty" />
+    <dimen name="size_two" />
+    <dimen name="size_ten" />
+    <dimen name="size_zero" />
+    <dimen name="size_thirty_five" />
+</resources>

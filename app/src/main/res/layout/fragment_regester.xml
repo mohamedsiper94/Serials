@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/Regefrag"
+    android:layout_height="match_parent"
+    tools:context=".RegesterF">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:textColorHint="#362222"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="#362222"
+        android:textSize="20sp"
+        android:id="@+id/text_name_register"></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:textColorHint="#362222"
+        android:gravity="center"
+        android:textColor="#362222"
+        android:textSize="20sp"
+        android:id="@+id/text_username_register"></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:textColorHint="#362222"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColor="#362222"
+        android:textSize="20sp"
+        android:id="@+id/text_password_register"></EditText>
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:textColorHint="#362222"
+        android:gravity="center"
+        android:textColor="#362222"
+        android:textSize="20sp"
+        android:id="@+id/text_email_register"></EditText>
+    <Button
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:id="@+id/btn_regester_dialoge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A3020101"
+        android:textSize="20sp"
+        android:text="Register"
+        android:textColor="#BB8757"></Button>
+</LinearLayout>
